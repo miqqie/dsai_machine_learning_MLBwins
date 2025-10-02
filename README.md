@@ -68,7 +68,7 @@ Using historical data, the notebook applies feature engineering, lag statistics,
 - Per-game statistics (like runs scored or allowed) provide stronger predictive signals than raw totals.  
 - **Kernel Ridge Regression outperformed XGBoost and other more complex models**, which in fact produced worse MAE.  
 
-## 📝 Lessons Learned  
+## 📝 Key Takeaways 
 1. **Start Simple**: Simpler models can sometimes deliver better results.  
 2. **Feature Engineering Matters Most**: The single biggest factor in reducing MAE was careful feature engineering, followed by **choosing the right model**, and only then **hyperparameter tuning**.  
 3. **Lag Features Matter**: Historical performance is a strong predictor of future wins.  
